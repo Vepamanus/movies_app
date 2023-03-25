@@ -1,0 +1,44 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0d0d0d;
+  padding: 30px;
+  min-height: 100vh;
+}
+.failure-view {
+  height: 276.0001220703125px;
+  width: 375.0012512207031px;
+  left: 532px;
+  top: 307px;
+  border-radius: 0px;
+}
+
+.failure-content {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .failure-content {
+    font-size: 20px;
+  }
+}
+.try-again-btn {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 3px;
+  color: #171f46;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'HK Grotesk';
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}

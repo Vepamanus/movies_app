@@ -1,0 +1,76 @@
+.poster {
+  width: 320px;
+  height: 55vh;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.heading {
+  color: white;
+  font-size: 15px;
+
+  margin-bottom: 5px;
+}
+
+.para {
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  margin-right: 20px;
+}
+
+.titles {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.runtime {
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.content-box {
+  padding: 20px;
+}
+
+.tagline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  font-family: 'sans-serif';
+}
+
+.description {
+  font-size: 18px;
+  text-align: left;
+  text-overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .poster {
+    width: 160px;
+    height: 50vh;
+  }
+
+  .container {
+    min-width: 370px;
+  }
+  .tagline {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 10px;
+    text-overflow: hidden;
+  }
+}

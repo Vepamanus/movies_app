@@ -1,0 +1,258 @@
+.movie-details-home-page {
+  background-size: cover;
+  min-height: 60vh;
+}
+@media screen and (min-width: 768px) {
+  .movie-details-home-page {
+    min-height: 50vh;
+  }
+
+  .home-page-container {
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 42px;
+    min-height: 40vh;
+  }
+
+  .title {
+    font-size: 64px;
+    line-height: 62px;
+    padding-bottom: 0;
+  }
+
+  .movie-details {
+    margin-bottom: 24px;
+    margin-top: 12px;
+    width: 192px;
+  }
+
+  .run-time {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .censor {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .release-year {
+    font-size: 18px;
+    line-height: 23px;
+    height: 27px;
+    width: 55px;
+  }
+
+  .over-view {
+    font-size: 20px;
+    line-height: 26px;
+    width: 75%;
+    margin-bottom: 32px;
+  }
+
+  .play-btn {
+    width: 74px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+
+  .info-heading {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+
+  .similar-movies-container {
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .side-heading {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+.home-page-container {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 50vh;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #131313 92.82%,
+    #131313 98.68%,
+    #131313 108.61%
+  );
+}
+
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 177px;
+  margin: 0;
+  height: 25px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.run-time {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.censor {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  height: 25px;
+  width: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.release-year {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.over-view {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.play-btn {
+  padding: 8px 24px;
+  width: 76px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #171f46;
+  border: none;
+}
+
+.movie-information {
+  background-color: black;
+  padding: 20px;
+}
+
+.movie-details-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.each-info {
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  .info-heading {
+    font-size: 12px;
+  }
+}
+
+.info-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #64748b;
+  margin-bottom: 7px;
+}
+
+.list-items {
+  padding: 0px;
+  margin: 0px;
+}
+
+.genre-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+  .genre-name {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.similar-movies-container {
+  margin-top: 20px;
+}
+
+.side-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 0px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-top: 35px;
+  padding-left: 0;
+}
+
+.similar-movies-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.line {
+  margin-top: 30px;
+  opacity: 50%;
+}
